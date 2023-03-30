@@ -48,6 +48,8 @@ const getWinner = (cChoice, pChoice = DEFAULT_USER_CHOICE) =>
     ? RESULT_PLAYER_WINS
     : RESULT_COMPUTER_WINS;
 
+
+    // When i pass a pointer to a function as an argument to another function that what we call it callback function [it been called for you]
 startGameBtn.addEventListener('click', function startGame() {
   if (gameIsRunning) {
     return;
